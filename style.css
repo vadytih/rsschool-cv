@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 20px 2% 10px 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.photo {
+    height: 300px;
+    margin: 0 auto;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;    
+    align-items: top;
+    justify-content: space-evenly;
+
+}
+
+.contact-box__photo {
+
+}
+
+.contact-box__info {
+    max-width: 500px;
+    padding-left: 20px;
+}
